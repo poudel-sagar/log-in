@@ -1,0 +1,25 @@
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        Button but1 = (Button) findViewById(R.id.button);
+        Button but2 = (Button) findViewById(R.id.button2);
+        but1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent int1=new Intent(MainActivity.this,notes.class);
+                startActivity(int1);
+            }
+        });
+        but2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent int2=new Intent(MainActivity.this,Tutorials.class);
+                startActivity(int2);
+            }
+        });
+    }
+
+}
