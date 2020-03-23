@@ -6,132 +6,155 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class scienceone extends AppCompatActivity {
+public class cmathone extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_scienceone);
-        Button butt1= (Button)findViewById(R.id.measurement);
-
-        butt1.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_extraone);
+        Button sets1= (Button)findViewById(R.id.sets);
+        sets1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int1=new Intent(scienceone.this,sciencechapter_one.class);
-                startActivity(int1);
+                Intent int15=new Intent(cmathone.this,cmathchapter_one.class);
+                startActivity(int15);
 
             }
         });
-        Button butt2= (Button)findViewById(R.id.pressure);
+        Button root1= (Button)findViewById(R.id.root);
 
-        butt2.setOnClickListener(new View.OnClickListener() {
+        root1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int2=new Intent(scienceone.this,sciencechapter_two.class);
-                startActivity(int2);
+                Intent int16=new Intent(cmathone.this,cmathchapter_two.class);
+                startActivity(int16);
 
             }
         });
-        Button butt3= (Button)findViewById(R.id.simple_machine);
+        Button realnum3= (Button)findViewById(R.id.real_number_system);
 
-        butt3.setOnClickListener(new View.OnClickListener() {
+        realnum3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int3=new Intent(scienceone.this,sciencechapter_three.class);
-                startActivity(int3);
+                Intent int17=new Intent(cmathone.this,cmathchapter_three.class);
+                startActivity(int17);
 
             }
         });
-        Button butt4= (Button)findViewById(R.id.work);
+        Button integers1= (Button)findViewById(R.id.integers);
 
-        butt4.setOnClickListener(new View.OnClickListener() {
+        integers1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int4=new Intent(scienceone.this,sciencechapter_four.class);
-                startActivity(int4);
+                Intent int18=new Intent(cmathone.this,cmathchapter_four.class);
+                startActivity(int18);
 
             }
         });
-        Button butt5= (Button)findViewById(R.id.heat);
+        Button ratio_proportion1= (Button)findViewById(R.id.ratio_proportion);
 
-        butt5.setOnClickListener(new View.OnClickListener() {
+        ratio_proportion1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int5=new Intent(scienceone.this,sciencechapter_five.class);
-                startActivity(int5);
+                Intent int19=new Intent(cmathone.this,cmathchapter_five.class);
+                startActivity(int19);
 
             }
         });
-        Button butt6= (Button)findViewById(R.id.sound);
+        Button profit_loss1= (Button)findViewById(R.id.profit_loss);
 
-        butt6.setOnClickListener(new View.OnClickListener() {
+        profit_loss1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int6=new Intent(scienceone.this,sciencechapter_six.class);
-                startActivity(int6);
+                Intent int20=new Intent(cmathone.this,cmathchapter_six.class);
+                startActivity(int20);
 
             }
         });
-        Button butt7= (Button)findViewById(R.id.light);
+        Button unitary_method1= (Button)findViewById(R.id.unitary_method);
 
-        butt7.setOnClickListener(new View.OnClickListener() {
+        unitary_method1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int7=new Intent(scienceone.this,sciencechapter_seven.class);
-                startActivity(int7);
+                Intent int21=new Intent(cmathone.this,cmathchapter_seven.class);
+                startActivity(int21);
 
             }
         });
-        Button butt8= (Button)findViewById(R.id.magnetism);
+        Button geometry1= (Button)findViewById(R.id.geometry);
 
-        butt8.setOnClickListener(new View.OnClickListener() {
+        geometry1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int8=new Intent(scienceone.this,sciencechapter_eight.class);
-                startActivity(int8);
+                Intent int22=new Intent(cmathone.this,cmathchapter_eight.class);
+                startActivity(int22);
 
             }
         });
-        Button butt9= (Button)findViewById(R.id.velocity);
+        Button coordinate_geometry1= (Button)findViewById(R.id.coordinate_geometry);
 
-        butt9.setOnClickListener(new View.OnClickListener() {
+        coordinate_geometry1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int9=new Intent(scienceone.this,sciencechapter_nine.class);
-                startActivity(int9);
+                Intent int23=new Intent(cmathone.this,cmathchapter_nine.class);
+                startActivity(int23);
 
             }
         });
-        Button butt10= (Button)findViewById(R.id.matter);
+        Button area_perimeter1= (Button)findViewById(R.id.area_perimeter);
 
-        butt10.setOnClickListener(new View.OnClickListener() {
+        area_perimeter1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int10=new Intent(scienceone.this,sciencechapter_ten.class);
-                startActivity(int10);
+                Intent int24=new Intent(cmathone.this,cmathchapter_ten.class);
+                startActivity(int24);
 
             }
         });
-        Button butt11= (Button)findViewById(R.id.acid);
+        Button solid_shapes1= (Button)findViewById(R.id.solid_shapes);
 
-        butt11.setOnClickListener(new View.OnClickListener() {
+        solid_shapes1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int11=new Intent(scienceone.this,sciencechapter_eleven.class);
-                startActivity(int11);
+                Intent int25=new Intent(cmathone.this,cmathchapter_eleven.class);
+                startActivity(int25);
 
             }
         });
-        Button butt12= (Button)findViewById(R.id.mixture);
+        Button mixture1= (Button)findViewById(R.id.mixture);
 
-        butt12.setOnClickListener(new View.OnClickListener() {
+        mixture1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int12=new Intent(scienceone.this,sciencechapter_twelve.class);
-                startActivity(int12);
+                Intent int26=new Intent(cmathone.this,cmathchapter_twelve.class);
+                startActivity(int26);
+
 
             }
         });
+        Button drawing1= (Button)findViewById(R.id.drawing);
+
+        drawing1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent int27=new Intent(cmathone.this,cmathchapter_thirteen.class);
+                startActivity(int27);
+
+
+            }
+        });
+        Button statistics1= (Button)findViewById(R.id.statistics);
+
+        statistics1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent int28=new Intent(cmathone.this,cmathchapter_fourteen.class);
+                startActivity(int28);
+
+
+            }
+        });
+
 
 
 
